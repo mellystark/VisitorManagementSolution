@@ -1,0 +1,55 @@
+# ---------------------------
+# .NET / ASP.NET Core
+# ---------------------------
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.swp
+*.dbmdl
+*.bak
+*.log
+*.ldf
+*.ndf
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Rider / VSCode / VS
+.vscode/
+.idea/
+*.DotSettings
+
+# ---------------------------
+# Node.js / React / React Native / Expo
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.expo/
+.expo-shared/
+web-build/
+*.expo
+
+# ---------------------------
+# Build outputs
+# ---------------------------
+dist/
+build/
+out/
+coverage/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ---------------------------
+# OS Specific
+# ---------------------------
+.DS_Store
+Thumbs.db
