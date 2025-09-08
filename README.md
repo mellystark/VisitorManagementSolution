@@ -49,7 +49,9 @@ VisitorManagementSolution/
 
 ## 🚀 Kurulum  
 
-1️⃣ API (ASP.NET Core)  
+### 1️⃣ API (ASP.NET Core)  
+
+```bash
 cd VisitorManagement
 dotnet restore
 dotnet run
