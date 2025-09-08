@@ -49,33 +49,46 @@ VisitorManagementSolution/
 
 ## 🚀 Kurulum  
 
-### 1️⃣ API (ASP.NET Core)  
+1️⃣ API (ASP.NET Core)  
 
 ```bash
 cd VisitorManagement
 dotnet restore
 dotnet run
+```
 
 🔗 API adresi: https://localhost:7023/api
 
 Testleri çalıştırmak için:
+
+```bash
 cd VisitorManagement/VisitorManagement.Api.Tests
 dotnet test
+```
 
 2️⃣ Admin Panel (React + Vite)
+
+```bash
 cd visitor-admin
 npm install
 npm run dev
+```
 
 3️⃣ Katılım Formu
+
+```bash
 cd visitor-portal
 npm install
 npm run dev
+```
 
 4️⃣ Mobil Uygulama (Expo / React Native)
+
+```bash
 cd visitor-scanner
 npm install
 npx expo start
+```
 
 📱 QR kodu okut → uygulamayı cihazında aç.
 
@@ -91,4 +104,6 @@ Database: SQL Server / SQLite
 
 Testing: xUnit
 
+
+```bash
 <p align="center">✨ Developed by <b>MellyStark</b> with ❤️</p> ```
